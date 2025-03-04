@@ -8,7 +8,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "https://sub.liudl.top:3001/api123456789/download/%E4%B8%AD%E5%9B%BD%E6%9C%BA%E5%9C%BA?target=Clash"
+    url: "订阅地址"
       
 # 用于下载订阅时指定UA
 global-ua: clash
