@@ -1,5 +1,5 @@
 {
-  "ipv6": true,  // 新增：启用IPv6支持
+  "ipv6": true,
   "dns": {
     "servers": [
       {"tag": "local", "type": "udp", "server": "223.5.5.5"},
