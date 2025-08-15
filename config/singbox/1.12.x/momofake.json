@@ -10,8 +10,8 @@
       {"query_type": "HTTPS", "action": "reject"},
       {"clash_mode": "direct", "server": "local"},
       {"clash_mode": "global", "server": "foreign"},
-      {"rule_set": ["geosite-cn", "geosite-steamcn", "geosite-apple"], "server": "local"},
       {"domain": "liudl.top", "server": "local"},
+      {"rule_set": ["geosite-cn", "geosite-steamcn", "geosite-apple"], "server": "local"},
       {"query_type": ["A", "AAAA"], "server": "fakeip", "rewrite_ttl": 1, "exclude_domain": ["liudl.top"]}
     ],
     "final": "foreign",
