@@ -11,11 +11,11 @@
       {"clash_mode": "direct", "server": "local"},
       {"clash_mode": "global", "server": "foreign"},
       {"domain": "liudl.top", "server": "local"},
-      {"rule_set": ["domain:liudl.top", "geosite-cn", "geosite-steamcn", "geosite-apple"], "server": "local"},
+      {"rule_set": ["geosite-cn", "geosite-steamcn", "geosite-apple"], "server": "local"},
       {"query_type": ["A", "AAAA"], "server": "fakeip", "rewrite_ttl": 1}
     ],
     "final": "foreign",
-    "strategy": "ipv4_only",
+    "strategy": "prefer_ipv6",
     "independent_cache": true
   },
   "outbounds": [
