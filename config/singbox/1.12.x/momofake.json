@@ -138,10 +138,8 @@
         "172.31.0.1/30",
         "fdfe:dcba:9876::1/126"
       ],
-      "auto_route": true,
+      "auto_route": false,
       "auto_redirect": false
-      "stack": "mixed",
-      "sniff": true
     }
   ],
   "experimental": {
@@ -151,7 +149,7 @@
       "store_fakeip": true
     },
     "clash_api": {
-      "external_controller": "0.0.0.0:9095",
+      "external_controller": "0.0.0.0:9090",
       "external_ui": "/etc/momo/run/ui",
       "external_ui_download_url": "https://gh-proxy.com/https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip",
       "external_ui_download_detour": "🎯 全球直连",
