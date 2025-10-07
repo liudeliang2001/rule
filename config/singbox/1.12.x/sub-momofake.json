@@ -102,7 +102,7 @@
       "tag": "dns-in",
       "type": "direct",
       "listen": "::",
-      "listen_port": 1053
+      "listen_port": 1054
     },
     {
       "tag": "http-in",
